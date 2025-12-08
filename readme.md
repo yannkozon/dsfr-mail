@@ -71,8 +71,13 @@ Le template est structuré en sections de `table` HTML. Pour personnaliser votre
 ### 2. Images et logos
 
 - Remplacez les images placeholder par vos visuels
+- Hébergez les images sur un serveur accessible publiquement pour :
+  - Assurer que les images se chargent correctement pour tous les destinataires
+  - Éviter les problèmes de blocage d'images par les clients de messagerie
+  - Optimiser le temps de chargement des emails
+- Utilisez un logo Marianne avec l'intitulé officiel de votre service. Pour les opérateurs de l'État, hébergez le logo "République française" fourni et remplacez le placeholder du logo opérateur.
 - Respectez les dimensions recommandées
-- Optimisez pour le web (format WebP recommandé avec fallback)
+- Compressez et optimisez pour le web (format WebP recommandé avec fallback)
 - Ajoutez des attributs `alt` descriptifs sur les images porteuses d'information
 
 ### 3. Couleurs et styles
